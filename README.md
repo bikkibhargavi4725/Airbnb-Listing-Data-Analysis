@@ -54,7 +54,7 @@ The cleaned data was used to create a **3-page Power BI dashboard**.
 | Date Format | Required conversion |
 | Unnecessary Columns | `house_rules`, `license` |
 
-### Main Columns
+## Main Columns
 
 ```text
 id
@@ -84,7 +84,7 @@ availability 365
 house_rules
 license
 
-🧹 Data Cleaning & Preprocessing
+##🧹 Data Cleaning & Preprocessing
 
 The raw dataset was cleaned and prepared before creating the Power BI dashboard.
 
@@ -105,7 +105,7 @@ Filled missing date values using the most frequent date.
 Validated the final dataset before importing it into Power BI.
 
 
-🔄 Before vs After Cleaning
+##🔄 Before vs After Cleaning
 Feature	Before Cleaning	After Cleaning
 Rows	102,599	83,813
 Columns	26	25
@@ -124,7 +124,7 @@ Unnecessary Columns	house_rules, license present	Removed
 Power BI Ready	No	Yes
 
 
-📉 Records Removed During Cleaning
+##📉 Records Removed During Cleaning
 The raw dataset contained records that were not suitable for the final analysis.
 Price Filtering
 
@@ -146,7 +146,7 @@ Final Dataset
 After applying the cleaning, filtering, and duplicate-removal steps:
 102,599 rows → 83,813 rows
 
-🧩 Missing Value Treatment
+##🧩 Missing Value Treatment
 
 Remaining missing values were handled according to the data type.
 Categorical Columns
@@ -177,7 +177,7 @@ Date Column
 Missing values in last_review were filled using the most frequent date:
 2019-06-23
 
-📊 After Cleaning – Final Dataset
+##📊 After Cleaning – Final Dataset
 
 File: After cleaning.xlsx
 
@@ -216,11 +216,11 @@ calculated_host_listings_count
 availability_365
 
 
-📊 Power BI Dashboard
+##📊 Power BI Dashboard
 
 The cleaned dataset was used to create a 3-page interactive Power BI dashboard.
 
-Page 1 – Airbnb Market Place Overview
+###Page 1 – Airbnb Market Place Overview
 
 Shows:
 
@@ -238,7 +238,8 @@ Slicers:
 
 room_type
 neighbourhood
-Page 2 – Pricing & Listing Analysis
+
+###Page 2 – Pricing & Listing Analysis
 
 Shows:
 
@@ -257,7 +258,8 @@ Slicers:
 cancellation_policy
 price
 room_type
-Page 3 – Reviews, Ratings & Availability
+
+###Page 3 – Reviews, Ratings & Availability
 
 Shows:
 
@@ -280,7 +282,7 @@ room_type
 availability_365
 
 
-🛠️ Tools & Technologies
+##🛠️ Tools & Technologies
 Python
 Pandas
 Microsoft Excel
