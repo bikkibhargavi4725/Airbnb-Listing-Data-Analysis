@@ -1,4 +1,4 @@
-# 🏠 Airbnb Market Place Analysis Dashboard
+# 🏠 Airbnb Market Place Analysis
 
 ## 📌 Project Overview
 
